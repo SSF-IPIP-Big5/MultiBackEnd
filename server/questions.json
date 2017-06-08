@@ -24,7 +24,6 @@
     "Text": "Don't mind being the center of attention.",
     "Style": "Extraversion"
 },
-
 {
     "Keyed": false,
     "Text": "Don't talk a lot.",
@@ -236,7 +235,6 @@
     "Text": "Am full of ideas.",
     "Style": "Intellect"
 },
-
 {
     "Keyed": false,
     "Text": "Have difficulty understanding abstract ideas.",
@@ -252,6 +250,5 @@
     "Text": "Do not have a good imagination.",
     "Style": "Intellect"
 }
-
 ]
 
