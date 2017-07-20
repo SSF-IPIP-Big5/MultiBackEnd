@@ -15,11 +15,21 @@
       "required": true
     },
     "company": {
-      "type": "string"
+      "type": "array"
+    },
+    "isAdmin": {
+      "type": "boolean",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "testResults": {
+      "type": "hasMany",
+      "model": "TestResults",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
